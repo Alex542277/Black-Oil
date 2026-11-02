@@ -25,3 +25,33 @@ The project investigates the numerical simulation of incompressible two-phase oi
 - **Sensitivity Analysis:** Accuracy, time-step sensitivity, and computational cost.
 
 ## 📂 Repository Structure
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- NumPy, SciPy, Matplotlib, Pandas
+- (Optional) LaTeX distribution for compiling the manuscript
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/fractional-black-oil.git
+cd fractional-black-oil
+pip install -r requirements.txt
+
+# Run the classical Buckley-Leverett validation
+python src/buckley_leverett.py
+
+# Run the fractional IMPES simulator
+python src/simulator.py --alpha 0.90 --gamma_f 0.90 --gamma_m 0.95
+
+@article{Adetola2026Fractional,
+  title={Fractional-Order Modeling of Saturation Dynamics in Black-Oil Reservoir Simulation},
+  author={Adetola, Jamal and Dahoue, Alexandre L. and Atindehou, Ganiou and Hou\'{e}danou, Koffi Wilfrid and Allaoui, Mohamed},
+  journal={},
+  year={2026},
+  note={Manuscript submitted for publication}
+}
