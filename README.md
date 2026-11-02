@@ -31,22 +31,16 @@ The project investigates the numerical simulation of incompressible two-phase oi
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.1+
 - NumPy, SciPy, Matplotlib, Pandas
 - (Optional) LaTeX distribution for compiling the manuscript
 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/fractional-black-oil.git
-cd fractional-black-oil
+git clone https://github.com/yourusername/Black-Oil.git
+cd Black-Oil
 pip install -r requirements.txt
-
-# Run the classical Buckley-Leverett validation
-python src/buckley_leverett.py
-
-# Run the fractional IMPES simulator
-python src/simulator.py --alpha 0.90 --gamma_f 0.90 --gamma_m 0.95
 
 @article{Adetola2026Fractional,
   title={Fractional-Order Modeling of Saturation Dynamics in Black-Oil Reservoir Simulation},
